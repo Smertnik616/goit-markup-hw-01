@@ -1,0 +1,64 @@
+body {
+  font-family: 'Arial', sans-serif; /* Замініть на ваш шрифт */
+  margin: 0;
+  padding: 0;
+  background-color: #282c34; /* Замініть на колір фону */
+  color: #fff; /* Замініть на колір тексту */
+}
+
+header {
+  background-color: #615fc9; /* Замініть на колір хедера */
+  padding: 1rem 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #615fc9; /* Замініть на колір кнопки */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.feature {
+  text-align: center;
+  width: 30%;
+}
